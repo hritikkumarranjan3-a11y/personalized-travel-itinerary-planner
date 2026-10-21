@@ -3,7 +3,7 @@ import { createRoot } from "react-dom/client";
 import { MapPin, CalendarDays, Wallet, Sparkles, Compass, Clock3, Utensils, Train, Bookmark, Trash2, RefreshCw, ArrowRight, CheckCircle2 } from "lucide-react";
 import "./styles.css";
 
-const API = "http://127.0.0.1:8000";
+const API = "https://personalized-travel-itinerary-planner-whts.onrender.com";
 const initial = { destination: "Jaipur", days: 3, budget: 10000, interests: ["Culture", "Food", "Photography"], travel_style: "Balanced", group_size: 1 };
 function App() {
   const [form, setForm] = useState(initial);
